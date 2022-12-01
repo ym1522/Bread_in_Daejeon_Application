@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 전체적으로 Relative 레이아웃을 사용하고 배경 색을 지정해준다. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF6DE">
+
+    <!-- 빵의 사진을 표시할 이미지뷰. id를 부여하고 크기와 마진 등을 설정해준다. -->
+    <ImageView
+        android:id="@+id/breadImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"/>
+
+    <!-- 빵의 이름을 표시할 텍스트뷰. id를 부여하고 크기와 텍스트 속성 설정, 이미지뷰의 오른쪽에 배치. -->
+    <TextView
+        android:id="@+id/breadName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/breadImage"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <!-- 빵의 가격을 표시할 텍스트뷰.
+    id를 부여하고 크기와 마진, 텍스트 속성 설정. 이미지뷰의 오른쪽, breadName 아래에 배치. -->
+    <TextView
+        android:id="@+id/breadPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breadName"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/breadImage"
+        android:textSize="30sp"/>
+
+    <!-- 빵의 평점을 표시할 텍스트뷰.
+    id를 부여하고 크기와 마진, 텍스트 속성 설정. 이미지뷰의 오른쪽, breadPrice 아래에 배치. -->
+    <TextView
+        android:id="@+id/breadRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/breadPrice"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/breadImage"
+        android:textSize="20sp"/>
+</RelativeLayout>
+

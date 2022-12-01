@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Relative 레이아웃을 사용하고, 배경 색을 지정해준다. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6DE">
+
+    <!-- 아이템들을 담을 리스트뷰를 생성한다. -->
+    <ListView
+        android:id="@+id/bakerylist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
+

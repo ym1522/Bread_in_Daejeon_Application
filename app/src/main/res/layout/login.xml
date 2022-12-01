@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 전체적으로 상대적 레이아웃 사용, 뷰들을 수직으로 배치하고 배경색을 설정-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF6DE"
+    tools:context=".login">
+
+    <!-- 앱 로고 이미지(app_logo.png)를 표시, 폭은 화면에 꽉차게 하고 높이는 직접 지정해주었다. -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/app_logo"/>
+
+    <!-- 이메일을 적을 에디트텍스트. 가운데 정렬하고 마진을 적당히 주어 시각적으로 편하게 만들었다. -->
+    <EditText
+        android:id="@+id/idput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:hint="EMAIL"
+        android:textColor="#AA926F"
+        android:textSize="30sp" />
+
+    <!-- 비밀번호를 적을 에디트텍스트. 가운데 정렬하고 마진을 적당히 주어 시각적으로 편하게 만들었다. -->
+    <EditText
+        android:id="@+id/pwput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:hint="PASSWORD"
+        android:textColor="#AA926F"
+        android:textSize="30sp" />
+
+    <!-- 버튼을 배치하기 위한 리니어 레이아웃. 수평으로 배치하고 가운데 정렬한다. -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <!-- 로그인을 완료하기 위한 버튼. 버튼과 텍스트의 색을 지정하고 온클릭 속성으로 이벤트를 처리한다. -->
+        <Button
+            android:id="@+id/Btn_login"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#BCFFD6A3"
+            android:text="Login"
+            android:textColor="#AA6C2A"
+            android:textSize="30sp"
+            android:onClick="logBtnClick"/>
+
+        <!-- 회원가입 창으로 이동하기위한 버튼. 버튼과 텍스트의 색을 지정하고 온클릭 속성으로 이벤트를 처리한다. -->
+        <Button
+            android:id="@+id/Btn_signup"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="#BCFFD6A3"
+            android:text="Sign up"
+            android:textColor="#AA6C2A"
+            android:textSize="30sp"
+            android:onClick="signBtnClick"/>
+
+    </LinearLayout>
+
+</LinearLayout>

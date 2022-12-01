@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 전체적으로 리니어 레이아웃 사용, 뷰를 수직으로 배치하고 배경 색 설정해줌 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF6DE">
+
+    <!-- 앱 로고를 표시할 이미지뷰. 크기와 마진 설정 -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/app_logo"/>
+
+    <!-- 사용자에게 설명하는 내용을 담는 텍스트뷰. 크기와 마진, 텍스트 속성 설정-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가되었으면 하는 \n빵집 이름을 적어주세요!\n업데이트 시 반영하겠습니다~ "
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"/>
+
+    <!-- 사용자가 내용을 적을 에디트텍스트. 크기와 마진, 텍스트 속성 설정 -->
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:hint="여기에 적어주세요"/>
+
+    <!-- 버튼을 배치하기 위한 리니어 레이아웃. 수평으로 배치한다. -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- 제출하기 버튼. 크기와 마진 , 텍스트 속성 등을 설정한다. -->
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="제출하기"
+            android:textSize="30sp"
+            android:background="#BCFFD6A3"
+            android:textColor="#AA6C2A"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <!-- 메인으로 돌아가기 버튼. 크기와 마진 , 텍스트 속성 등을 설정한다. -->
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메인으로 돌아가기"
+            android:textSize="30sp"
+            android:background="#BCFFD6A3"
+            android:textColor="#AA6C2A"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+

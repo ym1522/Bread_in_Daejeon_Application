@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/bakery_list.xml" value="0.10778985507246377" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/bakery_list_item.xml" value="0.10778985507246377" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/bbang.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/bovolo.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/bread_item.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/bread_list.xml" value="0.22" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/colmare.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/harehare.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/harehare_list.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/login.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/main.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/mong_list.xml" value="0.1082427536231884" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/request.xml" value="0.20871327254305977" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/signup.xml" value="0.22" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/sungsim.xml" value="0.1" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/sungsim_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/ym152/mobilep/Bread_in_Deajeon/app/src/main/res/layout/sungsim_list.xml" value="0.3333333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

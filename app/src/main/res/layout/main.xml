@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 전체적으로 리니어레이아웃을 사용, 뷰는 수직으로 배치하고 드로워블 리소스인 background.png을 배경으로 설정 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <!-- bakery_list 액티비티로 전환하기 위한 버튼, 크기와 마진을 설정해주고 가운데 정렬, 버튼과 텍스트의 색 지정 -->
+    <Button
+        android:id="@+id/goBakery"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="20dp"
+        android:background="#F8E6B2"
+        android:text="bakery"
+        android:textColor="#C58F62"
+        android:textSize="50sp" />
+
+    <!-- request 액티비티로 전환하기 위한 버튼, 크기와 마진을 설정해주고 가운데 정렬, 버튼과 텍스트의 색 지정 -->
+    <Button
+        android:id="@+id/goRequest"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#F8E6B2"
+        android:text="request"
+        android:textColor="#C58F62"
+        android:textSize="50sp" />
+
+</LinearLayout>
+

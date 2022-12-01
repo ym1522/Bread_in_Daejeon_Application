@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 전체적인 레이아웃은 Relative 레이아웃, 배경 색을 설정해준다. -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF6DE">
+
+    <!-- 빵집 로고를 표시할 이미지뷰, 마진과 크기를 설정해준다. -->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"/>
+
+    <!-- 빵집의 이름을 표시할 텍스트뷰, 레이아웃의 크기와 텍스트의 크기, 스타일을 지정하고 이미지뷰의 오른쪽에 배치 -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/logo_image"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <!-- 빵집의 평점을 표시할 텍스트뷰, 마진과 크기를 설정해주고 이미지뷰의 오른쪽에 배치 -->
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/logo_image"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
+
